@@ -38,6 +38,6 @@ jobs:
     - name: Install Surge
       run: npm install --g surge
       
-    - name: setup surge:
+    - name: setup surge
       run: surge ./build demoapp_with_react_for_bootcamp2020.surge.sh --token ${{ secrets.SURGE_TOKEN }}  
         
