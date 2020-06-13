@@ -8,7 +8,7 @@ function App() {
     <div>
       <p>Hi here,</p>
       <Info/>
-      <Hobby hobby="Programming"/>
+      <Hobby hobby="Programming & Coding" />
     </div>
     
   );
